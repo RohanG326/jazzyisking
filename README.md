@@ -3,6 +3,8 @@
 Hello our names are Adi Khandelwal, Somaditya Singh, Rohan Gaikwad, and our King, Jazair Tallman, also known as Jazzy
 
 
+[Fastpages Link](https://rohang326.github.io/jazzyisking/)
+
 1. Today is an amazing day live life with meaning
 
 2. Tell your people you love them
