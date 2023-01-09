@@ -19,7 +19,7 @@ function calculate(phrase) {
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        result.innerHTML = data.result;
+        result.innerHTML = data.FinalResult;
     })
 }
 
