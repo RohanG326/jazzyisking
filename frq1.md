@@ -60,7 +60,7 @@ function date(year, month, day) {
 
         console.log(data);
 
-        result.innerHTML = "Day of Week: " + data.date;
+        result.innerHTML = "Day of Week: " + data.dayOfWeek;
 
     })
 }

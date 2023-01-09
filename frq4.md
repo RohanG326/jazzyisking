@@ -1,5 +1,7 @@
 ## FRQ 3
 
+### Lightboard
+
 <input id="input" placeholder="Input equation">
     <button onclick="calculate(getInput())">Calculate</button>
 
@@ -19,7 +21,7 @@ function calculate(phrase) {
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        result.innerHTML = data;
+        result.innerHTML = data.Result;
     })
 }
 
