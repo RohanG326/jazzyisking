@@ -50,7 +50,7 @@ function isLeapYear(yearparam) {
 
         console.log(data);
 
-        result.innerHTML = "Is " + yearparam + " a leap year: " + data.isLeapYear;
+        result.innerHTML = data.isLeapYear;
 
     })
 }
