@@ -49,6 +49,10 @@ function getYear2(){
     return inputYear2;
 }
 
+function getYear(){
+    let inputYear = document.getElementById("inputYear").value;
+    return inputYear;
+}
 function getYear3(){
     let inputYear3 = document.getElementById("inputYear3").value;
     return inputYear3;
