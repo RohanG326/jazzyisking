@@ -18,7 +18,7 @@ function numberOfLeapYears(year1, year2) {
 
         console.log(data);
 
-        result.innerHTML = "Leap Years between " + year1 + "and " + year2 + ": " + data.numberOfLeapYears;
+        result.innerHTML = "Leap Years between " + year1 + "and " + year2 + ": " + data.count;
 
     })
 }
@@ -37,10 +37,6 @@ function getYear(){
     let inputYear = document.getElementById("inputYear").value;
     return inputYear;
 }
-function getYear3(){
-    let inputYear3 = document.getElementById("inputYear3").value;
-    return inputYear3;
-}
 
 function getMonth(){
     let inputMonth = document.getElementById("inputMonth").value;
@@ -58,7 +54,7 @@ function date(year, month, day) {
     result = document.getElementById("dateResult");
 
     // Fetch data from API
-    fetch('https://samayacsa.tk/api/calendar/date/' + year3 + "/" + month + "/" + day)
+    fetch('https://samayacsa.tk/api/calendar/date/' + year + "/" + month + "/" + day)
     .then(response => response.json())
     .then(data => {
 
