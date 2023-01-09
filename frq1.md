@@ -23,22 +23,6 @@ function numberOfLeapYears(year1, year2) {
     })
 }
 
-function numberOfLeapYears(year1, year2) {
-    
-    result = document.getElementById("numberOfLeapYearsResult");
-
-    // Fetch data from API
-    fetch('https://samayacsa.tk/api/calendar/numberOfLeapYears/' + year1 + "/" + year2)
-    .then(response => response.json())
-    .then(data => {
-
-        console.log(data);
-
-        result.innerHTML = "Leap Years between " + year1 + "and " + year2 + ": " + data.numberOfLeapYears;
-
-    })
-}
-
 function getYear1(){
     let inputYear1 = document.getElementById("inputYear1").value;
     return inputYear1;
@@ -80,7 +64,7 @@ function date(year, month, day) {
 
         console.log(data);
 
-        result.innerHTML = "Day of Week" + data.date;
+        result.innerHTML = "Day of Week: " + data.date;
 
     })
 }
