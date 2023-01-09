@@ -23,6 +23,22 @@ function numberOfLeapYears(year1, year2) {
     })
 }
 
+function numberOfLeapYears(year1, year2) {
+    
+    result = document.getElementById("numberOfLeapYearsResult");
+
+    // Fetch data from API
+    fetch('https://samayacsa.tk/api/calendar/numberOfLeapYears/' + year1 + "/" + year2)
+    .then(response => response.json())
+    .then(data => {
+
+        console.log(data);
+
+        result.innerHTML = "Leap Years between " + year1 + "and " + year2 + ": " + data.numberOfLeapYears;
+
+    })
+}
+
 function getYear1(){
     let inputYear1 = document.getElementById("inputYear1").value;
     return inputYear1;
@@ -33,9 +49,36 @@ function getYear2(){
     return inputYear2;
 }
 
-function getYear(){
-    let inputYear = document.getElementById("inputYear").value;
-    return inputYear;
+function getYear3(){
+    let inputYear3 = document.getElementById("inputYear3").value;
+    return inputYear3;
+}
+
+function getMonth(){
+    let inputMonth = document.getElementById("inputMonth").value;
+    return inputMonth;
+}
+
+function getDay(){
+    let inputDay = document.getElementById("inputDay").value;
+    return inputDay;
+}
+
+
+function date(year, month, day) {
+    
+    result = document.getElementById("dateResult");
+
+    // Fetch data from API
+    fetch('https://samayacsa.tk/api/calendar/date/' + year3 + "/" + month + "/" + day)
+    .then(response => response.json())
+    .then(data => {
+
+        console.log(data);
+
+        result.innerHTML = "Day of Week" + data.date;
+
+    })
 }
 
 
@@ -61,6 +104,13 @@ function isLeapYear(yearparam) {
 <input id="inputYear" placeholder="Input a Year">
 <button onclick="isLeapYear(getYear())">Submit</button>
 <p id="isLeapYearResult"></p>
+
+### Check the Day of a Date
+<input id="inputYear3" placeholder="Input Year">
+    <input id="inputMonth" placeholder="Input Month">
+    <input id="inputDay" placeholder="Input Day">
+    <button onclick="date(getYear3(), getMonth(),getDay())">Submit</button>
+<p id="dateResult"></p>
 
 ### Check the Number of Leap Years in an Interval
 <input id="inputYear1" placeholder="Input Starting Year">
