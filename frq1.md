@@ -90,10 +90,10 @@ function isLeapYear(yearparam) {
 <p id="isLeapYearResult"></p>
 
 ### Check the Day of a Date
-<input id="inputYear3" placeholder="Input Year">
+<input id="inputYear" placeholder="Input Year">
     <input id="inputMonth" placeholder="Input Month">
     <input id="inputDay" placeholder="Input Day">
-    <button onclick="date(getYear3(), getMonth(),getDay())">Submit</button>
+    <button onclick="date(getYear(), getMonth(),getDay())">Submit</button>
 <p id="dateResult"></p>
 
 ### Check the Number of Leap Years in an Interval
