@@ -13,13 +13,13 @@ function getInput(){
     return equation;
 }
 
-function calculate(expression) {
+function calculate(phrase) {
     result = document.getElementById("result");
-    fetch('https://samayascsa.tk/api/calculator/' + expression)
+    fetch('https://samayascsa.tk/api/calculator/' + phrase)
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        result.innerHTML = expression + " = " + data.Result;
+        result.innerHTML = phrase + " = " + data.Result;
     })
 }
 
