@@ -15,7 +15,7 @@ function getInput(){
 
 function calculate(phrase) {
     result = document.getElementById("result");
-    fetch('https://samayascsa.tk/api/calculator/' + phrase)
+    fetch('https://samayacsa.tk/api/calculator/' + phrase)
     .then(response => response.json())
     .then(data => {
         console.log(data);

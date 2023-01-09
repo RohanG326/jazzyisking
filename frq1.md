@@ -12,7 +12,7 @@ function numberOfLeapYears(year1, year2) {
     result = document.getElementById("numberOfLeapYearsResult");
 
     // Fetch data from API
-    fetch('https://samayascsa.tk/api/calendar/numberOfLeapYears/' + year1 + "/" + year2)
+    fetch('https://samayacsa.tk/api/calendar/numberOfLeapYears/' + year1 + "/" + year2)
     .then(response => response.json())
     .then(data => {
 
