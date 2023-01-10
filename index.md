@@ -1,7 +1,7 @@
 ## Team members
 
-| Name | Interests |
-| Adi | stuff |
-| Rohan | stuff |
-| Jazzy | stuff |
-| Soma | stuff |
+| Name | Roles |
+| Adi | Backend Developer |
+| Rohan | DevOps |
+| Jazzy | Frontend Developer |
+| Soma | Scrum Master |
