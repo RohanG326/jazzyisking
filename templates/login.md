@@ -5,6 +5,16 @@
         <title>Document</title>
     </head>
     <body>
+    <table>
+    <tr>
+        <td><a href="/jazzyisking">Home</a></td>
+        <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
+        <td><a href="/jazzyisking/templates/login">Log In</a></td>
+        <td><a href="/jazzyisking/templates/signup">Sign Up</a></td>
+        <td><a href="/jazzyisking/templates/calendar">Calendar</a></td>
+        <td><a href="/jazzyisking/templates/home">Home</a></td>
+    </tr>
+    </table>
         <div class="layout">
         <div class="image"></div>
         <span class="home">Home</span>
