@@ -1,29 +1,95 @@
-<html><head><link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" /></head><body>
-<table>
-    <tr>
-        <td><a href="/jazzyisking">Home</a></td>
-        <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
-        <td><a href="/jazzyisking/templates/login">Log In</a></td>
-        <td><a href="/jazzyisking/templates/signup">Sign Up</a></td>
-        <td><a href="/jazzyisking/templates/calendar">Calendar</a></td>
-        <td><a href="/jazzyisking/templates/home">Home</a></td>
-    </tr>
-    </table>
-    <div class="v104_18">
-    <div class="v104_100">
-    </div><span class="v105_5">Forum</span>
-    <span class="v104_21">Home</span><span class="v104_22">Calender</span>
-    <span class="v104_23">Itinerary</span><span class="v104_24">Activities</span>
-    <span class="v104_25">John Cena</span><div class="v104_42"></div><div class="v104_45"></div>
-    <div class="v104_46"></div><div class="v104_47"></div>
-    <div class="v104_48"></div><div class="v104_49"></div>
-    <div class="v104_50"></div><div class="v104_51"></div>
-    <div class="v104_52"></div><div class="v104_53"></div>
-    <div class="v104_54"></div><div class="v104_55"></div>
-    <div class="v104_56"></div>
-    <div class="v104_57"></div><div class="v104_58"></div>
-    <div class="v104_59"></div><div class="v104_60"></div>
-    <div class="v104_61"></div><div class="v104_77"></div><div class="v104_81"></div><div class="v104_82"></div><div class="v104_62"></div><div class="v104_63"></div><div class="v104_64"></div><div class="v104_65"></div><div class="v104_66"></div><div class="v104_67"></div><div class="v104_68"></div><div class="v104_69"></div><div class="v104_83"></div><div class="v104_84"></div><div class="v104_86"></div><div class="v104_87"></div><div class="v104_70"></div><div class="v104_71"></div><div class="v104_72"></div><div class="v104_73"></div><span class="v104_75">1                   2                   3                   4                   5                   6                  7</span><span class="v104_76">8                   9                   10                 11                  12                  13                 14</span><span class="v104_88">15                  16                17                  18                 19                  20                21</span><span class="v104_89">22                 23                24                 25                26                27                 28</span><span class="v104_90">29                 30                31</span><div class="v104_135"><div class="v104_101"></div><span class="v104_102">Meeting</span></div><div class="v104_166"><div class="v104_167"></div><span class="v104_168">Hike</span></div><div class="v104_160"><div class="v104_161"></div><span class="v104_162">Party</span></div><div class="v104_157"><div class="v104_158"></div><span class="v104_159">Dinner</span></div><div class="v104_154"><div class="v104_155"></div><span class="v104_156">Lunch</span></div><div class="v104_148"><div class="v104_149"></div><span class="v104_150">Bonfire</span></div><div class="v115_230"></div><span class="v115_231">Add Event</span><div class="v115_232"></div><span class="v115_233">Delete Event</span></div></body></html> <br/><br/> <style>* {
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><a href="/jazzyisking">Home</a></td>
+                <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
+                <td><a href="/jazzyisking/templates/login">Log In</a></td>
+                <td><a href="/jazzyisking/templates/signup">Sign Up</a></td>
+                <td><a href="/jazzyisking/templates/calendar">Calendar</a></td>
+            <td><a href="/jazzyisking/templates/home">Home</a></td>
+            </tr>
+        </table>
+        <div class="v104_18">
+        <div class="v104_100">
+        </div><span class="v105_5">Forum</span>
+        <span class="v104_21">Home</span>
+        <span class="v104_22">Calender</span>
+        <span class="v104_23">Itinerary</span>
+        <span class="v104_24">Activities</span>
+        <span class="v104_25">John Cena</span><div class="v104_42"></div>
+        <div class="v104_45"></div>
+        <div class="v104_46"></div>
+        <div class="v104_47"></div>
+        <div class="v104_48"></div>
+        <div class="v104_49"></div>
+        <div class="v104_50"></div>
+        <div class="v104_51"></div>
+        <div class="v104_52"></div>
+        <div class="v104_53"></div>
+        <div class="v104_54"></div>
+        <div class="v104_55"></div>
+        <div class="v104_56"></div>
+        <div class="v104_57"></div>
+        <div class="v104_58"></div>
+        <div class="v104_59"></div>
+        <div class="v104_60"></div>
+        <div class="v104_61"></div>
+        <div class="v104_77"></div>
+        <div class="v104_81"></div>
+        <div class="v104_82"></div>
+        <div class="v104_62"></div>
+        <div class="v104_63"></div>
+        <div class="v104_64"></div>
+        <div class="v104_65"></div>
+        <div class="v104_66"></div>
+        <div class="v104_67"></div>
+        <div class="v104_68"></div>
+        <div class="v104_69"></div>
+        <div class="v104_83"></div>
+        <div class="v104_84"></div>
+        <div class="v104_86"></div>
+        <div class="v104_87"></div>
+        <div class="v104_70"></div>
+        <div class="v104_71"></div>
+        <div class="v104_72"></div>
+        <div class="v104_73"></div>
+        <span class="v104_75">1                   2                   3                   4                   5                   6                  7</span>
+        <span class="v104_76">8                   9                   10                 11                  12                  13                 14</span>
+        <span class="v104_88">15                  16                17                  18                 19                  20                21</span>
+        <span class="v104_89">22                 23                24                 25                26                27                 28</span>
+        <span class="v104_90">29                 30                31</span>
+        <div class="v104_135">
+        <div class="v104_101"></div>
+        <span class="v104_102">Meeting</span></div>
+        <div class="v104_166">
+        <div class="v104_167"></div>
+        <span class="v104_168">Hike</span></div>
+        <div class="v104_160">
+        <div class="v104_161"></div>
+        <span class="v104_162">Party</span></div>
+        <div class="v104_157">
+        <div class="v104_158"></div>
+        <span class="v104_159">Dinner</span></div>
+        <div class="v104_154">
+        <div class="v104_155"></div>
+        <span class="v104_156">Lunch</span></div>
+        <div class="v104_148">
+        <div class="v104_149"></div>
+        <span class="v104_150">Bonfire</span></div>
+        <div class="v115_230"></div>
+        <span class="v115_231">Add Event</span>
+        <div class="v115_232"></div>
+        <span class="v115_233">Delete Event</span>
+        </div>
+    </body>
+</html> 
+<br/><br/> 
+
+<style>* {
   box-sizing: border-box;
 }
 body {
