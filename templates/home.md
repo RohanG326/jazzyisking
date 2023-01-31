@@ -1,15 +1,37 @@
-<html><head><link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" /></head><body>
-<table>
-    <tr>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <table>
+      <tr>
         <td><a href="/jazzyisking">Home</a></td>
         <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
         <td><a href="/jazzyisking/templates/login">Log In</a></td>
         <td><a href="/jazzyisking/templates/signup">Sign Up</a></td>
         <td><a href="/jazzyisking/templates/calendar">Calendar</a></td>
         <td><a href="/jazzyisking/templates/home">Home</a></td>
-    </tr>
+      </tr>
     </table>
-    <div class="v59_3"><div class="v80_10"></div><span class="v59_4">Home</span><span class="v59_5">Calender</span><span class="v80_12">Putting the jazz in your plans</span><span class="v59_6">Itinerary</span><span class="v59_7">Activities</span><span class="v59_8">Login</span><span class="v80_11">Jazzy Plans</span><div class="v80_14"></div><div class="v80_17"></div><span class="v80_15">Explore</span><span class="v80_18">Popular Places</span><div class="v80_16"></div><span class="v80_19">Search for activities</span><div class="v80_20"></div><div class="v80_21"></div><div class="v80_22"></div><span class="v105_2">Forum</span></div></body></html> <br/><br/> <style>* {
+    <div class="v59_3">
+    <div class="v80_10"></div>
+    <span class="v59_4">Home</span>
+    <span class="v59_5">Calender</span>
+    <span class="v80_12">Putting the jazz in your plans</span>
+    <span class="v59_6">Itinerary</span>
+    <span class="v59_7">Activities</span>
+    <span class="v59_8">Login</span>
+    <span class="v80_11">Jazzy Plans</span>
+    //test
+    <div class="v80_14"></div>
+    <div class="v80_17">
+    </div><span class="v80_15">Explore</span>
+    <span class="v80_18">Popular Places</span>
+    <div class="v80_16">
+    </div><span class="v80_19">Search for activities</span>
+    <div class="v80_20"></div><div class="v80_21"></div>
+    <div class="v80_22"></div><span class="v105_2">
+    Forum</span></div></body></html> <br/><br/> <style>* {
   box-sizing: border-box;
 }
 body {
