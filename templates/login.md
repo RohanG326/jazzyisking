@@ -17,11 +17,11 @@
     </table>
         <div class="layout">
         <div class="image"></div>
-        <a class="home" href="/templates/home">Home</a>
-        <a class="calendar" href="/templates/calendar">Calender</a>
+        <a class="home" href="/jazzyisking/templates/home">Home</a>
+        <a class="calendar" href="/jazzyisking/templates/calendar">Calender</a>
         <span class="itinerary">Itinerary</span>
         <span class="activities">Activities</span>
-        <a class="login" href="/templates/login">Login</a>
+        <a class="login" href="/jazzyisking/templates/login">Login</a>
         <div class="v90_2"></div>
         <span class="typePassword">Type in Password</span>
         <span class="username">Username</span>
