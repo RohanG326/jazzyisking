@@ -15,12 +15,12 @@
     </table>
     <div class="v59_3">
     <div class="v80_10"></div>
-    <span class="v59_4">Home</span>
-    <span class="v59_5">Calender</span>
+    <a class="v59_4" href="/jazzyisking/templates/home">Home</a>
+    <a class="v59_5" href="/jazzyisking/templates/calendar">Calender</a>
+    <a class="v59_8" href="/jazzyisking/templates/login">Login</a>
     <span class="v80_12">Putting the jazz in your plans</span>
     <span class="v59_6">Itinerary</span>
     <span class="v59_7">Activities</span>
-    <span class="v59_8">Login</span>
     <span class="v80_11">Jazzy Plans</span>
     //test
     <div class="v80_14"></div>

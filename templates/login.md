@@ -17,11 +17,11 @@
     </table>
         <div class="layout">
         <div class="image"></div>
-        <span class="home">Home</span>
-        <span class="calendar">Calendar</span>
+        <a class="home" href="/templates/home">Home</a>
+        <a class="calendar" href="/templates/calendar">Calender</a>
         <span class="itinerary">Itinerary</span>
         <span class="activities">Activities</span>
-        <span class="login">Login</span>
+        <a class="login" href="/templates/login">Login</a>
         <div class="v90_2"></div>
         <span class="typePassword">Type in Password</span>
         <span class="username">Username</span>

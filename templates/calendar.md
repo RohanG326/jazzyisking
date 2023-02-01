@@ -16,11 +16,12 @@
         <div class="v104_18">
         <div class="v104_100">
         </div><span class="v105_5">Forum</span>
-        <span class="v104_21">Home</span>
-        <span class="v104_22">Calender</span>
+        <a class="v104_21" href="/jazzyisking/templates/home">Home</a>
+        <a class="v104_22" href="/jazzyisking/templates/calendar">Calender</a>
+        <a class="v104_25" href="/jazzyisking/templates/login">Login</a>
         <span class="v104_23">Itinerary</span>
         <span class="v104_24">Activities</span>
-        <span class="v104_25">John Cena</span><div class="v104_42"></div>
+        <div class="v104_42"></div>
         <div class="v104_45"></div>
         <div class="v104_46"></div>
         <div class="v104_47"></div>

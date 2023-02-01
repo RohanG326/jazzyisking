@@ -16,12 +16,11 @@
         <div class="v94_14">
         <div class="v104_17"></div>
         <div class="v94_21"></div>
-        <span class="v94_16">Home</span>
-        <td><a href="/jazzyisking">Home</a></td>
-        <span class="v94_17">Calender</span>
+        <a class="v94_16" href="/jazzyisking/templates/home">Home</a>
+        <a class="v94_17" href="/jazzyisking/templates/calendar">Calender</a>
         <span class="v94_18">Itinerary</span>
         <span class="v94_19">Activities</span>
-        <span class="v94_20">Login</span>
+        <a class="v94_20" href="/jazzyisking/templates/login">Login</a>
         <span class="v94_22">Type in Password</span>
         <span class="v94_23">Username</span>
         <span class="v94_24">Password</span>
