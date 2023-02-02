@@ -3,7 +3,7 @@
         <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
     </head>
     <body>
-    <table>
+    <!-- <table>
     <tr>
         <td><a href="/jazzyisking">Home</a></td>
         <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
@@ -12,7 +12,7 @@
         <td><a href="/jazzyisking/templates/calendar">Calendar</a></td>
         <td><a href="/jazzyisking/templates/home">Home</a></td>
     </tr>
-    </table>
+    </table> -->
         <div class="v94_14">
         <div class="v104_17"></div>
         <div class="v94_21"></div>

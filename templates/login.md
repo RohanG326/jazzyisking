@@ -5,7 +5,7 @@
         <title>Document</title>
     </head>
     <body>
-    <table>
+    <!-- <table>
     <tr>
         <td><a href="/jazzyisking">Home</a></td>
         <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
@@ -14,7 +14,7 @@
         <td><a href="/jazzyisking/templates/calendar">Calendar</a></td>
         <td><a href="/jazzyisking/templates/home">Home</a></td>
     </tr>
-    </table>
+    </table> -->
         <div class="layout">
         <div class="image"></div>
         <a class="home" href="/jazzyisking/templates/home">Home</a>
