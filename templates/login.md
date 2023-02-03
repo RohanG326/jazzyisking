@@ -14,11 +14,11 @@
         </table> -->
         <div class="v87_2">
         <div class="v104_15"></div>
-        <a class="v87_4" href="/jazzyisking/templates/home">Home</a>
+        <!-- <a class="v87_4" href="/jazzyisking/templates/home">Home</a>
         <a class="v87_5" href="/jazzyisking/templates/calendar">Calender</a>
         <span class="v87_7">Itinerary</span>
         <span class="v87_8">Activities</span>
-        <a class="v87_9" href="/jazzyisking/templates/login">Login</a>
+        <a class="v87_9" href="/jazzyisking/templates/login">Login</a> -->
         </div><span class="v94_10">Type in Password</span>
         <span class="v94_5">Username</span>
         <span class="v94_6">Password</span>
@@ -29,7 +29,7 @@
         <div class="v94_11">
         </div><span class="v94_12">Login</span>
         <a class="v94_13" href="/jazzyisking/templates/signup">New User? Click here to sign up</a>
-        <span class="v105_3">Forum</span>
+        <!-- <span class="v105_3">Forum</span> -->
         </div>
     </body>
 </html> 

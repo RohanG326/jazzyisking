@@ -16,11 +16,11 @@
         <div class="v94_14">
         <div class="v104_17"></div>
         <div class="v94_21"></div>
-        <a class="v94_16" href="/jazzyisking/templates/home">Home</a>
+        <!-- <a class="v94_16" href="/jazzyisking/templates/home">Home</a>
         <a class="v94_17" href="/jazzyisking/templates/calendar">Calender</a>
         <span class="v94_18">Itinerary</span>
         <span class="v94_19">Activities</span>
-        <a class="v94_20" href="/jazzyisking/templates/login">Login</a>
+        <a class="v94_20" href="/jazzyisking/templates/login">Login</a> -->
         <span class="v94_22">Type in Password</span>
         <span class="v94_23">Username</span>
         <span class="v94_24">Password</span>
@@ -37,7 +37,7 @@
         <div class="v94_29"></div>
         <span class="v94_30">Sign Up</span>
         <span class="v94_31">Already have an account? Click here to login</span>
-        <span class="v105_4">Forum</span>
+        <!-- <span class="v105_4">Forum</span> -->
         </div>
     </body>
 </html>
