@@ -1,6 +1,8 @@
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" /></head><body><!-- <table>
+        <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
+    </head>
+    <body><!-- <table>
     <tr>
         <td><a href="/jazzyisking">Home</a></td>
         <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
@@ -11,7 +13,29 @@
     </tr>
         </table> -->
         <div class="v87_2">
-        <div class="v104_15"></div><span class="v87_4">Home</span><span class="v87_5">Calender</span><span class="v87_7">Itinerary</span><span class="v87_8">Activities</span><span class="v87_9">Login</span><div class="v90_2"></div><span class="v94_10">Type in Password</span><span class="v94_5">Username</span><span class="v94_6">Password</span><span class="v90_3">Login</span><div class="name"></div><div class="name"></div><span class="v94_9">Type in Username</span><div class="v94_11"></div><span class="v94_12">Login</span><span class="v94_13">New User? Click here to sign up</span><span class="v105_3">Forum</span></div></body></html> <br/><br/> <style>* {
+        <div class="v104_15"></div>
+        <a class="v87_4" href="/jazzyisking/templates/home">Home</a>
+        <a class="v87_5" href="/jazzyisking/templates/calendar">Calender</a>
+        <span class="v87_7">Itinerary</span>
+        <span class="v87_8">Activities</span>
+        <a class="v87_9" href="/jazzyisking/templates/login">Login</a>
+        </div><span class="v94_10">Type in Password</span>
+        <span class="v94_5">Username</span>
+        <span class="v94_6">Password</span>
+        <span class="v90_3">Login</span>
+        <div class="name"></div>
+        <div class="name"></div>
+        <span class="v94_9">Type in Username</span>
+        <div class="v94_11">
+        </div><span class="v94_12">Login</span>
+        <a class="v94_13" href="/jazzyisking/templates/signup">New User? Click here to sign up</a>
+        <span class="v105_3">Forum</span>
+        </div>
+    </body>
+</html> 
+<br/><br/> 
+
+<style>* {
   box-sizing: border-box;
 }
 body {
