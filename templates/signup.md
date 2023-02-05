@@ -36,7 +36,7 @@
         <span class="v94_37">Type in First Name</span>
         <div class="v94_29"></div>
         <span class="v94_30">Sign Up</span>
-        <span class="v94_31">Already have an account? Click here to login</span>
+        <a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a>
         <!-- <span class="v105_4">Forum</span> -->
         </div>
     </body>

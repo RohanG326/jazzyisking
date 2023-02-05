@@ -9,7 +9,7 @@
     color: rgb(0, 0, 0);
     position: absolute;
     top: 0px;
-    left: 30px;
+    left: 830px;
     font-family: Exo;
     font-weight: Regular;
     font-size: 36px;
@@ -22,7 +22,7 @@
     color: rgb(0, 0, 0);
     position: absolute;
     top: 0px;
-    left: 150px;
+    left: 950px;
     font-family: Exo;
     font-weight: Regular;
     font-size: 36px;
@@ -35,7 +35,7 @@
     color: rgb(0, 0, 0);
     position: absolute;
     top: 0px;
-    left: 320px;
+    left: 1120px;
     font-family: Exo;
     font-weight: Regular;
     font-size: 36px;
@@ -48,34 +48,47 @@
     color: rgb(0, 0, 0);
     position: absolute;
     top: 0px;
-    left: 480px;
+    left: 1280px;
     font-family: Exo;
     font-weight: Regular;
     font-size: 36px;
     opacity: 1;
     text-align: left;
   }
-  .loginNav {
-    width: 99px;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    top: 0px;
-    left: 650px;
-    font-family: Exo;
-    font-weight: Regular;
-    font-size: 36px;
-    opacity: 1;
-    text-align: left;
-  }
+//   .loginNav {
+//     width: 99px;
+//     color: rgb(0, 0, 0);
+//     position: absolute;
+//     top: 0px;
+//     left: 650px;
+//     font-family: Exo;
+//     font-weight: Regular;
+//     font-size: 36px;
+//     opacity: 1;
+//     text-align: left;
+//   }
   .signupNav {
     width: 99px;
     color: rgb(0, 0, 0);
     position: absolute;
     top: 0px;
-    left: 770px;
+    left: 1450px;
     font-family: Exo;
     font-weight: Regular;
     font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .title {
+    width: 1000px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    font-family: Exo;
+    font-weight: ExtraBold;
+    font-size: 96px;
     opacity: 1;
     text-align: left;
   }

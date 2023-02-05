@@ -14,6 +14,7 @@
         </table> -->
         <div class="v87_2">
         <div class="v104_15"></div>
+        <div class="v90_2"></div>
         <!-- <a class="v87_4" href="/jazzyisking/templates/home">Home</a>
         <a class="v87_5" href="/jazzyisking/templates/calendar">Calender</a>
         <span class="v87_7">Itinerary</span>
@@ -130,14 +131,14 @@ body {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
-  top: 220px;
+  top: 175px;
   left: 492px;
 }
 .v94_10 {
   width: 161px;
   color: rgba(120,120,120,1);
   position: absolute;
-  top: 553px;
+  top: 653px;
   left: 567px;
   font-family: Exo;
   font-weight: Regular;
@@ -149,7 +150,7 @@ body {
   width: 96px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 353px;
+  top: 453px;
   left: 555px;
   font-family: Exo;
   font-weight: Regular;
@@ -161,7 +162,7 @@ body {
   width: 90px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 510px;
+  top: 610px;
   left: 558px;
   font-family: Exo;
   font-weight: Regular;
@@ -173,7 +174,7 @@ body {
   width: 121px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 256px;
+  top: 356px;
   left: 659px;
   font-family: Exo;
   font-weight: Regular;
@@ -191,7 +192,7 @@ body {
   width: 166px;
   color: rgba(120,120,120,1);
   position: absolute;
-  top: 404px;
+  top: 504px;
   left: 567px;
   font-family: Exo;
   font-weight: Regular;
@@ -205,7 +206,7 @@ body {
   background: rgba(23,64,110,1);
   opacity: 1;
   position: absolute;
-  top: 620px;
+  top: 720px;
   left: 555px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -217,7 +218,7 @@ body {
   width: 76px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 630px;
+  top: 730px;
   left: 670px;
   font-family: Exo;
   font-weight: Regular;
@@ -229,7 +230,7 @@ body {
   width: 334px;
   color: url("../images/v94_13.png");
   position: absolute;
-  top: 717px;
+  top: 817px;
   left: 551px;
   font-family: Exo;
   font-weight: Regular;
