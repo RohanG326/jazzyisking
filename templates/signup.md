@@ -21,19 +21,19 @@
         <span class="v94_18">Itinerary</span>
         <span class="v94_19">Activities</span>
         <a class="v94_20" href="/jazzyisking/templates/login">Login</a> -->
-        <span class="v94_22">Type in Password</span>
-        <span class="v94_23">Username</span>
-        <span class="v94_24">Password</span>
         <span class="v94_25">Sign Up</span>
-        <div class="name"></div>
-        <div class="name"></div>
-        <span class="v94_28">Type in Username</span>
-        <span class="v94_32">Type in Last Name</span>
         <span class="v94_33">First Name</span>
-        <span class="v94_34">Last Name</span>
-        <div class="name"></div>
-        <div class="name"></div>
         <span class="v94_37">Type in First Name</span>
+        <span class="v94_34">Last Name</span>
+        <span class="v94_32">Type in Last Name</span>
+        <span class="v94_23">Username</span>
+        <span class="v94_28">Type in Username</span>
+        <span class="v94_24">Password</span>
+        <span class="v94_22">Type in Password</span>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
         <div class="v94_29"></div>
         <span class="v94_30">Sign Up</span>
         <a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a>

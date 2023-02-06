@@ -18,20 +18,20 @@
     <!-- <a class="v59_4" href="/jazzyisking/templates/home">Home</a>
     <a class="v59_5" href="/jazzyisking/templates/calendar">Calender</a>
     <a class="v59_8" href="/jazzyisking/templates/login">Login</a> -->
-    <span class="v80_12">Putting the jazz in your plans</span>
     <!-- <span class="v59_6">Itinerary</span>
     <span class="v59_7">Activities</span> -->
-    <span class="v80_11">Jazzy Plans</span>
-    //test
-    <div class="v80_14"></div>
-    <div class="v80_17">
-    </div><span class="v80_15">Explore</span>
-    <span class="v80_18">Popular Places</span>
-    <div class="v80_16">
-    </div><span class="v80_19">Search for activities</span>
-    <div class="v80_20"></div><div class="v80_21"></div>
-    <div class="v80_22"></div>
     <!-- <span class="v105_2">Forum</span> -->
+    <span class="v80_11">Jazzy Plans</span>
+    <span class="v80_12">Putting the jazz in your plans</span>
+    <div class="v80_14"></div>
+    <div class="v80_17"></div>
+    <span class="v80_15">Explore</span>
+    <span class="v80_18">Popular Places</span>
+    <div class="v80_16"></div>
+    <span class="v80_19">Search for activities</span>
+    <div class="v80_20"></div>
+    <div class="v80_21"></div>
+    <div class="v80_22"></div>
     </div>
     </body>
 </html>     
