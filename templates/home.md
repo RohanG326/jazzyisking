@@ -56,7 +56,7 @@ body {
 .v80_10 {
   width: 100%;
   height: 100%;
-  background: url("../images/v80_10.png");
+  background: url("../images/winter_pic.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
