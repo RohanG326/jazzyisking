@@ -13,14 +13,14 @@
             <td><a href="/jazzyisking/templates/home">Home</a></td>
             </tr>
         </table> -->
-        <div class="v104_18">
-        <div class="v104_100">
         <!-- </div><span class="v105_5">Forum</span>
         <a class="v104_21" href="/jazzyisking/templates/home">Home</a>
         <a class="v104_22" href="/jazzyisking/templates/calendar">Calender</a>
         <a class="v104_25" href="/jazzyisking/templates/login">Login</a>
         <span class="v104_23">Itinerary</span>
         <span class="v104_24">Activities</span> -->
+        <div class="v104_18">
+        <div class="v104_100">
         <div class="v104_42"></div>
         <div class="v104_45"></div>
         <div class="v104_46"></div>
@@ -58,28 +58,28 @@
         <div class="v104_71"></div>
         <div class="v104_72"></div>
         <div class="v104_73"></div>
-        <span class="v104_75">1                   2                   3                   4                   5                   6                  7</span>
+        <!-- <span class="v104_75">1                   2                   3                   4                   5                   6                  7</span>
         <span class="v104_76">8                   9                   10                 11                  12                  13                 14</span>
         <span class="v104_88">15                  16                17                  18                 19                  20                21</span>
         <span class="v104_89">22                 23                24                 25                26                27                 28</span>
-        <span class="v104_90">29                 30                31</span>
+        <span class="v104_90">29                 30                31</span> -->
         <div class="v104_135">
-        <div class="v104_101"></div>
+        <!-- <div class="v104_101"></div> -->
         <span class="v104_102">Meeting</span></div>
         <div class="v104_166">
-        <div class="v104_167"></div>
+        <!-- <div class="v104_167"></div> -->
         <span class="v104_168">Hike</span></div>
         <div class="v104_160">
-        <div class="v104_161"></div>
+        <!-- <div class="v104_161"></div> -->
         <span class="v104_162">Party</span></div>
         <div class="v104_157">
-        <div class="v104_158"></div>
+        <!-- <div class="v104_158"></div> -->
         <span class="v104_159">Dinner</span></div>
         <div class="v104_154">
-        <div class="v104_155"></div>
+        <!-- <div class="v104_155"></div> -->
         <span class="v104_156">Lunch</span></div>
         <div class="v104_148">
-        <div class="v104_149"></div>
+        <!-- <div class="v104_149"></div> -->
         <span class="v104_150">Bonfire</span></div>
         <div class="v115_230"></div>
         <span class="v115_231">Add Event</span>
