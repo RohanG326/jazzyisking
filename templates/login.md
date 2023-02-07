@@ -12,32 +12,98 @@
         <td><a href="/jazzyisking/templates/home">Home</a></td>
     </tr>
         </table> -->
-        <div class="v87_2">
+        <!-- <div class="v87_2">
         <div class="v104_15"></div>
-        <div class="v90_2"></div>
+        <div class="v90_2"></div> -->
         <!-- <a class="v87_4" href="/jazzyisking/templates/home">Home</a>
         <a class="v87_5" href="/jazzyisking/templates/calendar">Calender</a>
         <span class="v87_7">Itinerary</span>
         <span class="v87_8">Activities</span>
         <a class="v87_9" href="/jazzyisking/templates/login">Login</a> -->
-        <!-- <span class="v105_3">Forum</span> -->
-        </div>
-        <span class="v90_3">Login</span>
+        <!-- </div><span class="v94_10">Type in Password</span>
         <span class="v94_5">Username</span>
-        <span class="v94_9">Type in Username</span>
         <span class="v94_6">Password</span>
-        <span class="v94_10">Type in Password</span>
+        <span class="v90_3">Login</span>
         <div class="name"></div>
         <div class="name"></div>
-        <div class="v94_11"></div>
-        <span class="v94_12">Login</span>
+        <span class="v94_9">Type in Username</span>
+        <div class="v94_11">
+        </div><span class="v94_12">Login</span>
         <a class="v94_13" href="/jazzyisking/templates/signup">New User? Click here to sign up</a>
-        </div>
-    </body>
-</html> 
+        </div> -->
+        <!-- <div class="p-5 mb-4 bg-light text-dark rounded-3">
+                <form name="f" action="/authenticate/" method="POST">
+                    <table>
+                        <tbody><tr><th><label for="username">Email</label></th></tr>
+                        <tr><td><input type="email" id="username" name="username" size="20" required=""></td></tr>
+                        <tr><th><label for="password">Password</label></th></tr>
+                        <tr><td><input type="password" id="password" name="password" size="20" required=""></td></tr>
+                        <tr><th><input type="submit" value="Submit"></th></tr>
+                        <tr><td><a href="/templates/signup">Sign Up</a></td></tr>
+                    </tbody></table>
+                </form>
+            </div>
+    </body> 
+</html> -->
 <br/><br/> 
+<form action="javascript:login_user()">
+    <p><label>
+        User ID:
+        <input type="text" name="uid" id="uid" required>
+    </label></p>
+    <p><label>
+        Password:
+        <input type="password" name="password" id="password" required>
+    </label></p>
+    <p>
+        <button>Login</button>
+    </p>
+</form>
 
-<style>* {
+<script>
+    // prepare URL's to allow easy switch from deployment and localhost
+    //var url = "https://spring.nighthawkcodingsociety.com"
+   var url = "http://localhost:5962"
+
+    const login_url = url + '/authenticate/';
+
+
+    function login_user(){
+        //Validate Password (must be 6-20 characters in len)
+        //verifyPassword("click");
+        const body = {
+            email: document.getElementById("uid").value,
+            password: document.getElementById("password").value,
+        };
+        const requestOptions = {
+            method: 'POST',
+            withCredentials: true,
+            body: JSON.stringify(body),
+            headers: {
+                "content-type": "application/json",
+            },
+        };
+
+        // URL for Create API
+        // Fetch API call to the database to create a new user
+        fetch(login_url, requestOptions)
+        .then(response => {
+            // trap error response from Web API
+            if (!response.ok) {
+                const errorMsg = 'Login error: ' + response.status;
+                console.log(errorMsg);
+                return;
+            }
+            // Get the JWT from Header and Store it
+            // jwt = response.headers.get("Set-Cookie");   // NOT WORKING
+            // localStorage.setItem('jwt', jwt);
+            // window.location.href = "/APCSA/data/database";
+        })
+    }
+
+
+</script>
+<!-- <style>* {
   box-sizing: border-box;
 }
 body {
@@ -251,4 +317,4 @@ body {
   opacity: 1;
   text-align: left;
 }
-</style>
+</style> -->
