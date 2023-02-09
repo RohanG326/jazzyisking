@@ -63,9 +63,9 @@
 <script>
     // prepare URL's to allow easy switch from deployment and localhost
     //var url = "https://spring.nighthawkcodingsociety.com"
-   var url = "http://localhost:5962"
+    var url = "http://localhost:5962"
 
-    const login_url = url + '/authenticate/';
+    const login_url = url + '/authenticate';
 
 
     function login_user(){
@@ -77,7 +77,9 @@
         };
         const requestOptions = {
             method: 'POST',
-            withCredentials: true,
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: 'include', // include, *same-origin, omit
             body: JSON.stringify(body),
             headers: {
                 "content-type": "application/json",
@@ -95,9 +97,7 @@
                 return;
             }
             // Get the JWT from Header and Store it
-            // jwt = response.headers.get("Set-Cookie");   // NOT WORKING
-            // localStorage.setItem('jwt', jwt);
-            // window.location.href = "/APCSA/data/database";
+            //change this later!!!! window.location.href = "/APCSA/data/database";
         })
     }
 
