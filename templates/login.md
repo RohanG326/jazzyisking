@@ -98,7 +98,7 @@
             }
             // Success!!!
             // Redirect to Database location
-          window.location.href = "/templates/home";
+          window.location.href = "/templates/database";
         })
     }
 
