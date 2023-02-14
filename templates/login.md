@@ -12,25 +12,24 @@
         <td><a href="/jazzyisking/templates/home">Home</a></td>
     </tr>
         </table> -->
-        <!-- <div class="v87_2">
+        <div class="v87_2">
         <div class="v104_15"></div>
-        <div class="v90_2"></div> -->
+        <div class="v90_2"></div>
         <!-- <a class="v87_4" href="/jazzyisking/templates/home">Home</a>
         <a class="v87_5" href="/jazzyisking/templates/calendar">Calender</a>
         <span class="v87_7">Itinerary</span>
         <span class="v87_8">Activities</span>
         <a class="v87_9" href="/jazzyisking/templates/login">Login</a> -->
-        <!-- </div><span class="v94_10">Type in Password</span>
+        </div><span class="v94_10">Type in Password</span>
         <span class="v94_5">Username</span>
         <span class="v94_6">Password</span>
         <span class="v90_3">Login</span>
         <div class="name"></div>
         <div class="name"></div>
         <span class="v94_9">Type in Username</span>
-        <div class="v94_11">
-        </div><span class="v94_12">Login</span>
+        <!-- <div class="v94_11"> -->
+        <!-- </div><span class="v94_12">Login</span> -->
         <a class="v94_13" href="/jazzyisking/templates/signup">New User? Click here to sign up</a>
-        </div> -->
         <!-- <div class="p-5 mb-4 bg-light text-dark rounded-3">
                 <form name="f" action="/authenticate/" method="POST">
                     <table>
@@ -47,14 +46,15 @@
 </html> -->
 <form action="javascript:login_user()">
     <p><label>
-        User ID:
-        <input type="text" name="uid" id="uid" required>
+        <!-- User ID: -->
+        <input class="v94_9" type="text" name="uid" id="uid" required>
     </label></p>
     <p><label>
-        Password:
-        <input type="password" name="password" id="password" required>
+        <!-- Password: -->
+        <input class="v94_10" type="password" name="password" id="password" required>
     </label></p>
     <p>
+        <!-- <button type="button">Login</button> -->
         <button>Login</button>
     </p>
 </form>
@@ -104,11 +104,27 @@
 
 
 </script>
-<!-- <style>* {
+<style>* {
   box-sizing: border-box;
 }
 body {
   font-size: 14px;
+}
+button {
+  position: absolute;
+  display: inline-block;
+  background-color: #000075;
+  padding: 5px;
+  width: 380px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px double #cccccc; 
+  border-radius: 10px; 
+  font-size: 28px; 
+  cursor: pointer; 
+  margin: 5px; 
+  top: 715px;
+  left: 525px;
 }
 .v87_2 {
   width: 100%;
@@ -203,7 +219,7 @@ body {
   left: 492px;
 }
 .v94_10 {
-  width: 161px;
+  width: 300px;
   color: rgba(120,120,120,1);
   position: absolute;
   top: 653px;
@@ -257,7 +273,7 @@ body {
   color: #fff;
 }
 .v94_9 {
-  width: 166px;
+  width: 300px;
   color: rgba(120,120,120,1);
   position: absolute;
   top: 504px;
@@ -318,4 +334,4 @@ body {
   opacity: 1;
   text-align: left;
 }
-</style> -->
+</style>
