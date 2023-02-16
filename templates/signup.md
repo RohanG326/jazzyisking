@@ -3,46 +3,87 @@
         <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
     </head>
     <body>
-    <!-- <table>
-    <tr>
-        <td><a href="/jazzyisking">Home</a></td>
-        <td><a href="/jazzyisking/templates/designplan">Design Plan</a></td>
-        <td><a href="/jazzyisking/templates/login">Log In</a></td>
-        <td><a href="/jazzyisking/templates/signup">Sign Up</a></td>
-        <td><a href="/jazzyisking/templates/calendar">Calendar</a></td>
-        <td><a href="/jazzyisking/templates/home">Home</a></td>
-    </tr>
-    </table> -->
         <div class="v94_14">
         <div class="v104_17"></div>
         <div class="v94_21"></div>
-        <!-- <a class="v94_16" href="/jazzyisking/templates/home">Home</a>
-        <a class="v94_17" href="/jazzyisking/templates/calendar">Calender</a>
-        <span class="v94_18">Itinerary</span>
-        <span class="v94_19">Activities</span>
-        <a class="v94_20" href="/jazzyisking/templates/login">Login</a> -->
-        <span class="v94_25">Sign Up</span>
-        <span class="v94_33">First Name</span>
-        <span class="v94_37">Type in First Name</span>
-        <span class="v94_34">Last Name</span>
-        <span class="v94_32">Type in Last Name</span>
-        <span class="v94_23">Username</span>
-        <span class="v94_28">Type in Username</span>
-        <span class="v94_24">Password</span>
-        <span class="v94_22">Type in Password</span>
-        <div class="name"></div>
-        <div class="name"></div>
-        <div class="name"></div>
-        <div class="name"></div>
-        <div class="v94_29"></div>
-        <span class="v94_30">Sign Up</span>
-        <a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a>
-        <!-- <span class="v105_4">Forum</span> -->
         </div>
     </body>
 </html>
 
-<style>* {
+<script>
+    // URL for deployment
+    //var url = "https://spring.nighthawkcodingsociety.com"
+    // Comment out next line for local testing
+   var url = "http://localhost:5962"
+    // Authenticate endpoint
+    const sign_up_url = url + '/api/person/post';
+
+
+    function sign_up_user(){
+        // Set body to include login data
+        const body = {
+            email: document.getElementById("uid").value,
+            password: document.getElementById("password").value,
+            name: document.getElementById("name1").value,
+            dob: document.getElementById("dob").value,
+        };
+
+        // Set Headers to support cross origin
+        const requestOptions = {
+            method: 'POST',
+
+            // mode: 'cors', // no-cors, *cors, same-origin
+            // cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+            // credentials: 'omit', // include, *same-origin, omit
+            body: JSON.stringify(body),
+            headers: {
+                "content-type": "application/json",
+            },
+        };
+
+        // Fetch JWT
+        fetch(sign_up_url, requestOptions)
+        .then(response => {
+            // trap error response from Web API
+            if (!response.ok) {
+                const errorMsg = 'Login error: ' + response.status;
+                console.log(errorMsg);
+                return;
+            }
+            // Success!!!
+            // Redirect to Database location
+          window.location.href = "/templates/login";
+        })
+    }
+</script>
+
+<html>
+<form action="javascript:sign_up_user()">
+    <p><label>
+        Email:
+        <input type="text" name="uid" id="uid" required>
+    </label></p>
+    <p><label>
+        Password:
+        <input type="password" name="password" id="password" required>
+    </label></p>
+    <p><label>
+        Name:
+        <input type="text" name="name1" id="name1" required>
+    </label></p>
+    <p><label>
+        Date Of Birth(mm-dd-yyyy):
+        <input type="text" name="dob" id="dob" required>
+    </label></p>
+    <p>
+        <button>Sign Up</button>
+    </p>
+</form>
+<a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a>
+</html>
+
+
+<!-- <style>* {
   box-sizing: border-box;
 }
 body {
@@ -310,4 +351,4 @@ body {
   opacity: 1;
   text-align: left;
 }
-</style>
+</style> -->
