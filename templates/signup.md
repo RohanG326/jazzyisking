@@ -3,9 +3,12 @@
         <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
     </head>
     <body>
+        <div class="img"></div>
+        <div class="v87_2"></div>
         <div class="v94_14">
         <div class="v104_17"></div>
         <div class="v94_21"></div>
+        <span class="signup">Sign Up</span>
         </div>
     </body>
 </html>
@@ -60,20 +63,20 @@
 <html>
 <form action="javascript:sign_up_user()">
     <p><label>
-        Email:
-        <input type="text" name="uid" id="uid" required>
+        <span class="email">Email:</span>
+        <input class="emailbox" type="text" name="uid" id="uid" required>
     </label></p>
     <p><label>
-        Password:
-        <input type="password" name="password" id="password" required>
+        <span class="password">Password:</span>
+        <input class="passwordbox" type="password" name="password" id="password" required>
     </label></p>
     <p><label>
-        Name:
-        <input type="text" name="name1" id="name1" required>
+        <span class="name">Name:</span>
+        <input class="namebox" type="text" name="name1" id="name1" required>
     </label></p>
     <p><label>
-        Date Of Birth(mm-dd-yyyy):
-        <input type="text" name="dob" id="dob" required>
+        <span class="dob">Date Of Birth(mm-dd-yyyy):</span>
+        <input class="dobbox" type="text" name="dob" id="dob" required>
     </label></p>
     <p>
         <button>Sign Up</button>
@@ -82,10 +85,173 @@
 <a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a>
 </html>
 
-
+<style>* {
+  box-sizing: border-box;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  background: url("../images/v104_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+  overflow: hidden;
+}
+button {
+  position: absolute;
+  display: inline-block;
+  background-color: #000075;
+  padding: 5px;
+  width: 330px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px double #cccccc; 
+  border-radius: 10px; 
+  font-size: 28px; 
+  cursor: pointer; 
+  margin: 5px; 
+  top: 585px;
+  left: 547px;
+}
+.v87_2 {
+  width: 400px;
+  height: 602px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 515px;
+  overflow: hidden;
+}
+.signup {
+  width: 201px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 176px;
+  left: 629px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.emailbox {
+  width: 300px;
+  color: rgba(120,120,120,1);
+  position: absolute;
+  top: 304px;
+  left: 567px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.passwordbox {
+  width: 300px;
+  color: rgba(120,120,120,1);
+  position: absolute;
+  top: 383px;
+  left: 567px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.namebox {
+  width: 300px;
+  color: rgba(120,120,120,1);
+  position: absolute;
+  top: 463px;
+  left: 567px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.dobbox {
+  width: 300px;
+  color: rgba(120,120,120,1);
+  position: absolute;
+  top: 543px;
+  left: 567px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.email {
+  width: 96px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 253px;
+  left: 555px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.password {
+  width: 96px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 343px;
+  left: 555px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  width: 96px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 423px;
+  left: 555px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.dob {
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 510px;
+  left: 555px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v94_31 {
+  width: 380px;
+  color: url("../images/v94_31.png");
+  position: absolute;
+  top: 659px;
+  left: 530px;
+  font-family: Exo;
+  font-weight: Regular;
+  font-size: 23px;
+  opacity: 1;
+  text-align: center;
+}
+</style>
 <!-- <style>* {
   box-sizing: border-box;
 }
+
 body {
   font-size: 14px;
 }
