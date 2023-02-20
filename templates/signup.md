@@ -34,10 +34,6 @@
         // Set Headers to support cross origin
         const requestOptions = {
             method: 'POST',
-
-            // mode: 'cors', // no-cors, *cors, same-origin
-            // cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
-            // credentials: 'omit', // include, *same-origin, omit
             body: JSON.stringify(body),
             headers: {
                 "content-type": "application/json",
@@ -73,7 +69,7 @@
     <p><label>
         <span class="name">Name:</span>
         <input class="namebox" type="text" name="name1" id="name1" required>
-    </label></p>
+    </label></p>a
     <p><label>
         <span class="dob">Date Of Birth(mm-dd-yyyy):</span>
         <input class="dobbox" type="text" name="dob" id="dob" required>
