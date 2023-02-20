@@ -1,14 +1,25 @@
 ## SQL Database
 <!-- HTML table fragment for page -->
+<style>
+  table, th, td {
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  th, td {
+    text-align: center;
+  }
+  
+</style
 <html>
 <table>
   <thead>
   <tr>
-    <th>Event</th>
-    <th>Date</th>
-    <th>Contact</th>
-    <th>Description</th>
-    <th>Location</th>
+    <th>Event          </th>
+    <th>Date            </th>
+    <th>Time          </th>
+    <th>Contact          </th>
+    <th>Description   </th>
+    <th>Location   </th>
   </tr>
   </thead>
   <tbody id="result">
@@ -59,18 +70,21 @@
             const tr = document.createElement("tr");
             const event = document.createElement("td");
             const date = document.createElement("td");
+            const time = document.createElement("td");
             const contact = document.createElement("td");
             const description = document.createElement("td");
             const location = document.createElement("td");
             // data is specific to the API
             event.innerHTML = row.event; 
-            date.innerHTML = row.date; 
+            date.innerHTML = row.date;
+            time.innerHTML = row.time; 
             contact.innerHTML = row.contact; 
             description.innerHTML = row.description; 
             location.innerHTML = row.location; 
             // this build td's into tr
             tr.appendChild(event);
             tr.appendChild(date);
+            tr.appendChild(time);
             tr.appendChild(contact);
             tr.appendChild(description);
             tr.appendChild(location);
@@ -90,4 +104,6 @@
     resultContainer.appendChild(tr);
   });
 </script>
+
+<label>
 </html>
