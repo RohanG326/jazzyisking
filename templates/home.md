@@ -23,12 +23,10 @@
     <!-- <span class="v105_2">Forum</span> -->
     <span class="v80_11">Jazzy Plans</span>
     <span class="v80_12">Putting the jazz in your plans</span>
-    <div class="v80_14"></div>
-    <div class="v80_17"></div>
-    <span class="v80_15">Explore</span>
-    <span class="v80_18">Popular Places</span>
     <div class="v80_16"></div>
     <span class="v80_19">Search for activities</span>
+    <button onclick="window.location.href='/templates/activities';" class = "button1" >Explore</button>
+    <button onclick="window.location.href='/templates/database';" class = "button2" >Participants</button>
     <div class="v80_20"></div>
     <div class="v80_21"></div>
     <div class="v80_22"></div>
@@ -42,6 +40,52 @@
 }
 body {
   font-size: 14px;
+}
+.button1 {
+  position: absolute;
+  top: 770px;
+  left: 57px;
+  display: inline-block;
+  background-color: #88aad7;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px #cccccc; 
+  border-radius: 10px; 
+  font-family: Exo;
+  font-weight: Bold;
+  font-size: 32px;
+  cursor: pointer; 
+  margin: 5px;
+   width: 282px;
+  height: 67px;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+.button2 {
+  position: absolute;
+  top: 770px;
+  left: 407px;
+  display: inline-block;
+  background-color: #88aad7;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px #cccccc; 
+  border-radius: 10px; 
+  font-family: Exo;
+  font-weight: Bold;
+  font-size: 32px;
+  cursor: pointer; 
+  margin: 5px;
+   width: 282px;
+  height: 67px;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
 }
 .v59_3 {
   width: 100%;
