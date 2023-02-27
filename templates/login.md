@@ -29,7 +29,8 @@
         <span class="v94_9">Type in Username</span>
         <!-- <div class="v94_11"> -->
         <!-- </div><span class="v94_12">Login</span> -->
-        <a class="v94_13" href="/jazzyisking/templates/signup">New User? Click here to sign up</a>
+        {% comment %} <a class="v94_13" href="/jazzyisking/templates/signup">New User? Click here to sign up</a> {% endcomment %}
+        <a class="v94_13" href="/templates/signup">New User? Click here to sign up</a>
         <!-- <div class="p-5 mb-4 bg-light text-dark rounded-3">
                 <form name="f" action="/authenticate/" method="POST">
                     <table>

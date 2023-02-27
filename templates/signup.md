@@ -78,7 +78,8 @@
         <button>Sign Up</button>
     </p>
 </form>
-<a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a>
+<a class="v94_31" href="/templates/login">Already have an account? Click here to login</a>
+{% comment %} <a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a> {% endcomment %}
 </html>
 
 <style>* {
