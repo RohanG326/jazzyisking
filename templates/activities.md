@@ -79,8 +79,13 @@
     <body>
         <div class="v104_172">
         <div class="v104_193"></div>
+        <button onclick="window.location.href='/jazzyisking/templates/createactivities';">Add Activity</button>
         <div class="v104_194"></div>
-        <div class="v104_202"></div><div class="v104_198"></div><div class="v104_206"></div><div class="v104_210"></div><div class="v104_214"></div>
+        <div class="v104_202"></div>
+        <div class="v104_198"></div>
+        <div class="v104_206"></div>
+        <div class="v104_210"></div>
+        <div class="v104_214"></div>
         <span class="event1">Meeting</span>
         <span class="event2">Hike</span>
         <span class="event3">Bonfire</span>
@@ -124,6 +129,24 @@ Number of Participants: 67</span><div class="v104_216"></div><span class="v104_2
 body {
   font-size: 14px;
 }
+
+button {
+  position: absolute;
+  display: inline-block;
+  background-color: #3c82c2;
+  padding: 5px;
+  width: 330px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px #cccccc; 
+  border-radius: 10px; 
+  font-size: 28px; 
+  cursor: pointer; 
+  margin: 5px; 
+  top: 35px;
+  left: 27px;
+}
+
 .event1 {
   width: 653px;
   color: rgba(0,0,0,1);
