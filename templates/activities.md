@@ -79,8 +79,8 @@
     <body>
         <div class="v104_172">
         <div class="v104_193"></div>
-        {% comment %} <button onclick="window.location.href='/jazzyisking/templates/createactivities';">Add Activity</button> {% endcomment %}
-        <button onclick="window.location.href='/templates/createactivities';">Add Activity</button>
+        <button onclick="window.location.href='/jazzyisking/templates/createactivities';">Add Activity</button>
+        {% comment %} <button onclick="window.location.href='/templates/createactivities';">Add Activity</button> {% endcomment %}
         <div class="v104_194"></div>
         <div class="v104_202"></div>
         <div class="v104_198"></div>
