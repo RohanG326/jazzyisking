@@ -6,6 +6,8 @@
   </head>
   <div class="img">
     <br>
+    <br>
+    <br>
 <table style="width:100%">
   <thead>
   <tr>
@@ -43,9 +45,9 @@
   const resultContainer = document.getElementById("result");
 
   // prepare URL
-  //var url = "https://spring.nighthawkcodingsociety.com/api/person/";
+  var url = "https://samayacsa.tk/api/activities/";
   // Uncomment next line for localhost testing
-  var url = "http://localhost:5962/api/activities/";
+  {% comment %} var url = "http://localhost:5962/api/activities/"; {% endcomment %}
 
   // set options for cross origin header request
   const options = {
@@ -64,7 +66,9 @@
     .then(response => {
       // check for response errors and display
       if (response.status !== 200) {
-          const errorMsg = 'Database response error: ' + response.status;
+          {% comment %} const errorMsg = 'Database response error: ' + response.status; {% endcomment %}
+          const errorMsg = 'Please login to access the activities';
+
           console.log(errorMsg);
           const tr = document.createElement("tr");
           const td = document.createElement("td");
@@ -227,8 +231,8 @@
       font-size: 28px; 
       cursor: pointer; 
       margin: 5px; 
-      top: 630px;
-      left: 27px;
+      top: 20px;
+      left: 1487px;
     }
     
     .event1 {

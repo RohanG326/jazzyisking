@@ -36,7 +36,8 @@
 </html>
 
 <script>
-    var url = "http://localhost:5962"
+    var url = "https://samayacsa.tk"
+    //var url = "http://localhost:5962"
     // Authenticate endpoint
 
     function create(){

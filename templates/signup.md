@@ -15,9 +15,9 @@
 
 <script>
     // URL for deployment
-    //var url = "https://spring.nighthawkcodingsociety.com"
+    var url = "https://samayacsa.tk"
     // Comment out next line for local testing
-   var url = "http://localhost:5962"
+   //var url = "http://localhost:5962"
     // Authenticate endpoint
     const sign_up_url = url + '/api/person/post';
 
@@ -78,8 +78,8 @@
         <button>Sign Up</button>
     </p>
 </form>
-<a class="v94_31" href="/templates/login">Already have an account? Click here to login</a>
-{% comment %} <a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a> {% endcomment %}
+{% comment %} <a class="v94_31" href="/templates/login">Already have an account? Click here to login</a> {% endcomment %}
+<a class="v94_31" href="/jazzyisking/templates/login">Already have an account? Click here to login</a>
 </html>
 
 <style>* {

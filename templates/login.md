@@ -62,9 +62,9 @@
 
 <script>
     // URL for deployment
-    //var url = "https://spring.nighthawkcodingsociety.com"
+    var url = "https://samayacsa.tk"
     // Comment out next line for local testing
-   var url = "http://localhost:5962"
+   //var url = "http://localhost:5962"
     // Authenticate endpoint
     const login_url = url + '/authenticate';
 
