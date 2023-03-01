@@ -1,5 +1,5 @@
 <html>
-  <script>
+  {% comment %} <script>
     // prepare HTML result container for new output
     const resultContainer = document.getElementById("result");
   
@@ -72,7 +72,7 @@
       tr.appendChild(td);
       resultContainer.appendChild(tr);
     });
-  </script>
+  </script> {% endcomment %}
   <head>
     <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
   </head>
